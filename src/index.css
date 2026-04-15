@@ -1,2 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
+
+* {
+  font-family: "Geist", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #244D3F #f1f1f1;
+}
