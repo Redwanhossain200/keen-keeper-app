@@ -51,9 +51,11 @@ const Stats = () => {
               </PieChart>
             </ResponsiveContainer>
           ) : (
-            <div className="text-center">
-              <div className="mb-3 text-[#244D3F] flex justify-center items-center"><FaChartBar size={32} /></div>
-              <p className="text-gray-400 text-lg italic">
+            <div className="text-center py-16">
+              <div className="mb-4 text-gray-200 flex justify-center items-center">
+                <FaChartBar size={64} />
+              </div>
+              <p className="text-gray-400 text-xl font-medium italic">
                 No interactions logged yet.
               </p>
             </div>
