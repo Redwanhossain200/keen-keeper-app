@@ -1,5 +1,5 @@
-import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -10,11 +10,14 @@ const Footer = () => {
         </h2>
 
         <p className="max-w-md mx-auto text-sm text-gray-300 mb-8 px-4 leading-relaxed">
-          Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+          Your personal shelf of meaningful connections. Browse, tend, and
+          nurture the relationships that matter most.
         </p>
 
         <div className="mb-12">
-          <h4 className="font-bold mb-4 text-lg uppercase tracking-widest">Social Links</h4>
+          <h4 className="font-bold mb-4 text-lg uppercase tracking-widest">
+            Social Links
+          </h4>
           <div className="flex justify-center gap-4">
             <button className="bg-white p-3 cursor-pointer rounded-full text-[#244D3F] hover:scale-110 transition-transform shadow-lg">
               <FaInstagramSquare size={22} />
@@ -34,9 +37,15 @@ const Footer = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 md:order-2">
-            <a href="#" className="hover:text-white transition-all">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-all">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-all">Cookies</a>
+            <a href="#" className="hover:text-white transition-all">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-white transition-all">
+              Terms of Service
+            </a>
+            <a href="#" className="hover:text-white transition-all">
+              Cookies
+            </a>
           </div>
         </div>
       </div>

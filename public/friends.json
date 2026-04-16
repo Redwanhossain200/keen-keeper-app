@@ -6,9 +6,7 @@
     "email": "emma@yahoo.com",
     "days_since_contact": 62,
     "status": "overdue",
-    "tags": [
-      "family"
-    ],
+    "tags": ["family"],
     "bio": "Former colleague, great mentor.",
     "goal": 30,
     "next_due_date": "2026-02-27"
@@ -20,10 +18,7 @@
     "email": "james@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": [
-      "work",
-      "travel"
-    ],
+    "tags": ["work", "travel"],
     "bio": "Adventurous soul and tech enthusiast.",
     "goal": 14,
     "next_due_date": "2026-04-20"
@@ -35,9 +30,7 @@
     "email": "lisa@icloud.com",
     "days_since_contact": 12,
     "status": "almost due",
-    "tags": [
-      "college"
-    ],
+    "tags": ["college"],
     "bio": "Old roommate from university days.",
     "goal": 15,
     "next_due_date": "2026-04-18"
@@ -49,9 +42,7 @@
     "email": "david@outlook.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": [
-      "hobby"
-    ],
+    "tags": ["hobby"],
     "bio": "Gaming buddy and chess partner.",
     "goal": 20,
     "next_due_date": "2026-03-10"
@@ -63,9 +54,7 @@
     "email": "sarah@email.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": [
-      "close friend"
-    ],
+    "tags": ["close friend"],
     "bio": "Best friend since high school.",
     "goal": 7,
     "next_due_date": "2026-04-15"
@@ -77,9 +66,7 @@
     "email": "marcus234@icloud.com",
     "days_since_contact": 28,
     "status": "almost due",
-    "tags": [
-      "work"
-    ],
+    "tags": ["work"],
     "bio": "Project manager at current firm.",
     "goal": 30,
     "next_due_date": "2026-04-14"
@@ -91,9 +78,7 @@
     "email": "aisha@icloud.com",
     "days_since_contact": 1,
     "status": "on-track",
-    "tags": [
-      "family"
-    ],
+    "tags": ["family"],
     "bio": "Cousin who loves photography.",
     "goal": 30,
     "next_due_date": "2026-05-12"
@@ -105,9 +90,7 @@
     "email": "tom@gmail.com",
     "days_since_contact": 80,
     "status": "overdue",
-    "tags": [
-      "college"
-    ],
+    "tags": ["college"],
     "bio": "Met during hiking club.",
     "goal": 60,
     "next_due_date": "2026-02-01"
@@ -119,9 +102,7 @@
     "email": "olivia@yaaho.com",
     "days_since_contact": 18,
     "status": "almost due",
-    "tags": [
-      "travel"
-    ],
+    "tags": ["travel"],
     "bio": "Met during the Europe trip.",
     "goal": 21,
     "next_due_date": "2026-04-16"
@@ -133,9 +114,7 @@
     "email": "ryan@outlook.com",
     "days_since_contact": 4,
     "status": "on-track",
-    "tags": [
-      "hobby"
-    ],
+    "tags": ["hobby"],
     "bio": "Guitar teacher and musician.",
     "goal": 14,
     "next_due_date": "2026-04-22"

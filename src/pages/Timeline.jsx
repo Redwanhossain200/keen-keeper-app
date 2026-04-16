@@ -1,21 +1,23 @@
-import { useState } from "react";
-import { useTimeline } from "../context/TimelineContext";
-import TimelineItem from "../components/TimelineItem";
-import { FaChartBar, FaSearch } from "react-icons/fa";
+import { useState } from 'react';
+import { useTimeline } from '../context/TimelineContext';
+import TimelineItem from '../components/TimelineItem';
+import { FaChartBar, FaSearch } from 'react-icons/fa';
 
 const Timeline = () => {
-  const [filter, setFilter] = useState("All");
-  const [searchTerm, setSearchTerm] = useState("");
+  const [filter, setFilter] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
   const { interactions } = useTimeline();
 
   const filtered = interactions.filter((item) => {
-    const matchesFilter = filter === "All" || item.type === filter;
-    const matchesSearch = item.friend.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesFilter = filter === 'All' || item.type === filter;
+    const matchesSearch = item.friend
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
     return matchesFilter && matchesSearch;
   });
 
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4 min-h-screen">
+    <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-8">
         Timeline
       </h1>
@@ -24,8 +26,7 @@ const Timeline = () => {
         <div className="w-full md:w-auto order-2 md:order-1">
           <select
             className="select select-bordered border border-gray-300 w-full md:w-55 rounded-xl bg-white outline-none focus:border-[#244D3F]"
-            onChange={(e) => setFilter(e.target.value)}
-          >
+            onChange={(e) => setFilter(e.target.value)}>
             <option value="All">All Interactions</option>
             <option value="Call">Call</option>
             <option value="Text">Text</option>
@@ -49,9 +50,7 @@ const Timeline = () => {
 
       <div className="space-y-6 bg-white p-6 md:p-10 rounded-3xl border border-gray-100 shadow-sm">
         {filtered.length > 0 ? (
-          filtered.map((item) => (
-            <TimelineItem key={item.id} item={item} />
-          ))
+          filtered.map((item) => <TimelineItem key={item.id} item={item} />)
         ) : (
           <div className="text-center py-16">
             <div className="mb-4 text-gray-200 flex justify-center items-center">

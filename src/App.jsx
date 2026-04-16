@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import FriendDetails from "./pages/FriendDetails";
-import Timeline from "./pages/Timeline";
-import Stats from "./pages/Stats";
-import ErrorPage from "./pages/ErrorPage";
-import { TimelineProvider } from "./context/TimelineContext";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import FriendDetails from './pages/FriendDetails';
+import Timeline from './pages/Timeline';
+import Stats from './pages/Stats';
+import ErrorPage from './pages/ErrorPage';
+import { TimelineProvider } from './context/TimelineContext';
 
 function App() {
   return (

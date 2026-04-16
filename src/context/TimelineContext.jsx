@@ -1,4 +1,4 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext } from 'react';
 
 const TimelineContext = createContext();
 
@@ -10,11 +10,12 @@ export const TimelineProvider = ({ children }) => {
   };
 
   const removeInteraction = (id) => {
-    setInteractions(interactions.filter(item => item.id !== id));
+    setInteractions(interactions.filter((item) => item.id !== id));
   };
 
   return (
-    <TimelineContext.Provider value={{ interactions, addInteraction, removeInteraction }}>
+    <TimelineContext.Provider
+      value={{ interactions, addInteraction, removeInteraction }}>
       {children}
     </TimelineContext.Provider>
   );

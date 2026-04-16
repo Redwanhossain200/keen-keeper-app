@@ -1,14 +1,14 @@
-import React from "react";
-import { MdOutlineDeleteForever } from "react-icons/md";
-import { useTimeline } from "../context/TimelineContext";
-import toast from "react-hot-toast";
+import React from 'react';
+import { MdOutlineDeleteForever } from 'react-icons/md';
+import { useTimeline } from '../context/TimelineContext';
+import toast from 'react-hot-toast';
 
 const TimelineItem = ({ item }) => {
   const { removeInteraction } = useTimeline();
 
   const handleDelete = () => {
     removeInteraction(item.id);
-    toast.error("Deleted!");
+    toast.error('Deleted!');
   };
 
   return (
