@@ -1,6 +1,6 @@
 # 🎯 KeenKeeper
 
-### 🔗 **live demo** : [Visit Project](keen-keeper-app-mocha.vercel.app)
+### 🔗 **live demo** : [Visit Project](https://keen-keeper-app-mocha.vercel.app/)
 
 KeenKeeper is a specialized relationship management platform designed to help you nurture and maintain meaningful connections with the people who matter most. In a busy world it’s easy to lose track of when you last spoke to a close friend or family member. KeenKeeper acts as your "personal shelf of connections" reminding you to reach out and keeping a detailed history of your interactions.
 
